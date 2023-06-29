@@ -218,8 +218,6 @@ html, body {
 .section .section__hdl:before {
     margin-left: -.625rem;
     transform: translateY(-50%) translateX(-100%);
-
-
 }
 
 .section .section__hdl--ternary {
@@ -230,7 +228,6 @@ html, body {
     font-size: 1.1875rem;
     color: rgb(106, 106, 106);
     margin-bottom: 1.25rem;
-
 }
 .section .section__box {
     display: flex;
@@ -279,5 +276,41 @@ html, body {
     margin-top: 0;
 }
 
+.inner.inner--narrow {
+    max-width: 56.5rem;
 
+}
 
+.inner.inner--narrow .section__col {
+    max-width: 56.5rem;
+    width: 50%;
+}
+
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+}
+
+.contact-form button{
+    align-self: flex-end;
+}
+
+.contact-form .contact-form__group {
+    display: flex;
+    gap: .625rem;
+    align-items: flex-start;
+}
+.contact-form .contact-form__group .contact-form__checkbox {
+    order: -10;
+}
+
+.contact-form .contact-form__group label {
+    font-size: .625rem;
+    color: rgba(178, 178, 178, 1);
+    line-height: 1.4;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-top: -.15rem;
+}
